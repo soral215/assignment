@@ -1,0 +1,58 @@
+
+.filter-modal-wrap {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: 31vh 43vw;
+  margin: auto;
+  opacity: 1;
+  background: #000000;
+  top: 0;
+  left: 0;
+
+  .filter-modal{
+    width: 370px;
+    height: 277px;
+    background-color: #FFFFFF;
+    opacity: 1;
+
+    .close {
+      right: 0;
+      padding: 20px;
+    }
+
+    .contents-wrap {
+      padding: 0 48px;
+
+      h1 {
+        font: normal normal bold 22px/32px SpoqaHanSans;
+        letter-spacing: 0px;
+        color: #212529;
+      }
+
+      ul {
+        padding: 10px 0 42px 0;
+      }
+    }
+
+    .apply {
+      margin: 0 auto;
+      background-color: #00C854;
+      color: #FFFFFF;
+      text-align: center;
+      width: 277px;
+      height: 40px;
+
+      p {
+        padding: 14px;
+      }
+    }
+  }
+}
+@media ( max-width: 768px ) {
+
+  .filter-modal-wrap {
+    padding: 33vh 11vw;
+  }
+}

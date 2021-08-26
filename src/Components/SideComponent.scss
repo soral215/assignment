@@ -1,0 +1,27 @@
+.SideComponent {
+  height: 100vh;
+  width: 15vw;
+  //display: inline-block;
+
+  .login-btn {
+    position: fixed;
+    width: 12vw;
+    height: 60px;
+    text-align: center;
+    background-color: #00C854;
+    border-radius: 5px;
+
+    p {
+      font: normal normal bold 22px/25px SpoqaHanSans;
+      padding: 17px;
+      color: #ffffff;
+    }
+  }
+
+}
+
+@media ( max-width: 768px ) {
+  .SideComponent {
+    display: none;
+  }
+}

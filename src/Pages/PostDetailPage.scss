@@ -1,0 +1,61 @@
+.PostDetailComponent {
+
+  .post {
+    padding: 20px 30px;
+    border: 1px solid #00C854;
+    border-radius: 5px;
+    margin: 0 0 30px;
+
+    .title p{
+      padding: 0 0 10px;
+      font: normal normal bold 18px/28px SpoqaHanSans;
+      letter-spacing: 0px;
+      color: #282C30;
+    }
+  }
+
+  li {
+    padding: 20px 30px;
+    border: 1px solid #E1E4E7;
+    border-radius: 5px;
+    margin: 0 0 30px;
+
+    .user {
+      font: normal normal normal 16px/25px SpoqaHanSans;
+      letter-spacing: 0px;
+      color: #7E848A;
+    }
+  }
+
+  .contents {
+    font: normal normal normal 16px/25px SpoqaHanSans;
+    letter-spacing: 0px;
+    color: #495057;
+  }
+
+  .created-date {
+    font: normal normal normal 13px/25px SpoqaHanSans;
+    letter-spacing: 0px;
+    color: #ADB5BD;
+  }
+
+  .reply {
+    .text {
+      padding: 0 2px 5px;
+      font: normal normal normal 16px/25px SpoqaHanSans;
+      letter-spacing: 0px;
+      color: #495057;
+    }
+    .strong {
+      color: #00C854;
+    }
+  }
+
+}
+
+@media ( max-width: 768px ) {
+  .PostDetailComponent {
+    background: #ffffff;
+
+  }
+}
